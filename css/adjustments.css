@@ -1,0 +1,467 @@
+body {
+    background-color: #000;
+    position: relative;
+}
+
+a, a:focus, a:visited, a:active {
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+textarea:focus, input:focus, button:focus {
+    outline: none;
+}
+
+.btn-dark {
+    background-color: transparent;
+}
+
+.btn-dark:link {
+    background-color: transparent;
+    color: white;
+}
+
+.d-all {
+    background-color: black;
+    opacity: 0;
+    transition: all .5s ease;
+}
+
+#d-top {
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: 15%;
+}
+
+#d-bot {
+    bottom: 0;
+    width: 100%;
+    height: 15%;
+    position: absolute
+}
+
+#mid {
+    width: 100%;
+    height: 70%;
+}
+
+#d-lef {
+    left: 0;
+    height: 100%;
+    float: left;
+}
+
+#border {
+    opacity: 0;
+    z-index: 1;
+    float: left;
+    width: 24%;
+    height: 100%;
+    border: 1px solid white;
+    transition: all .5s ease;
+}
+
+#d-rig {
+    float: left;
+    right: 0;
+    height: 100%;
+}
+
+#darken {
+    width: 100%;
+    height: 100%;
+}
+
+.sides {
+    width: 38%;
+}
+
+#services {
+    height: 777px;
+    overflow: hidden;
+    padding: 0px;
+    background: url('../img/look.png') no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+#name-holder {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    height: auto;
+    z-index: 5;
+}
+
+#menu-toggle {
+    z-index: 10;
+}
+
+#about-head {
+    font-size: 32px;
+    font-family: 'Bungee Hairline', cursive;
+}
+
+#myname {
+    vertical-align: top;
+    font-size: 32px;
+    text-align: center;
+    /*font-family: 'Dosis';*/
+    font-family: 'Bungee Hairline', cursive;
+    color: white;
+    letter-spacing: 10px;
+    margin-top: 5px;
+    transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+}
+
+#centerme {
+    text-align: center;
+    margin-right: 1.74%;
+}
+
+#border:hover {
+    cursor: pointer;
+}
+
+#trigger {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 1200px;
+    height: 600px;
+    margin-left: 10%;
+    margin-top: 7%;
+    background-color: transparent;
+    z-index: 0;
+}
+
+#works {
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    color: white;
+}
+
+.portfolio {
+    background-color: black;
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+
+#open {
+    font-family: 'Bungee Hairline', cursive;
+}
+
+#initialize {
+    opacity: 1;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    padding-top: 350px;
+    transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
+}
+
+#open {
+    color: white;
+    width: 50%;
+    margin-left: 25%
+}
+
+#descrip {
+    color: #555;
+}
+
+#initialize:hover {
+    opacity: 0;
+}
+
+.header {
+    background-color: black;
+    opacity: 0;
+    transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
+}
+
+.header:hover {
+    opacity: 1;
+}
+
+.header2 {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url("img/tribal2shortdark2web.jpg") no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    transition: background .25s ease-in-out;
+    -moz-transition: background .25s ease-in-out;
+    -webkit-transition: background .25s ease-in-out;
+}
+
+.about {
+    padding: 0px;
+    background-color: #e0e0e0;
+    height: 777px;
+    width: 100%;
+    background: url('../img/paint.jpg') no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+#about-inner, #about-inner2 {
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+.about-holder {
+    height: 700px;
+    width: 100%;
+    padding: 0px;
+}
+
+#about-text {
+    margin-top: 220px;
+    margin-bottom: 220px;
+}
+
+.p-contain {
+    position: relative;
+    height: 30px;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.lead {
+    opacity: 1;
+    margin-bottom: 0px;
+    padding-top: 15px;
+}
+
+.down {
+    font-size: 32px;
+    color: black;
+    font-family: 'Bungee Hairline', cursive;
+    position: relative;
+}
+
+.services {
+    background-color: #616161;
+}
+
+.portfolio-bg {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-y: hidden;
+    text-align: center;
+}
+
+#vid-contain {
+    width: 100%;
+    text-align: left;
+}
+
+.portfolio-elements {
+    opacity: 1;
+    transition: all 1s ease;
+}
+
+#you-vid {
+    position: absolute;
+    ;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    transition: all 3s ease;
+    opacity: 0;
+    margin: 0;
+    padding: 0;
+}
+
+#works {
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+    font-family: 'Bungee Hairline', cursive;
+    font-size: 32px;
+}
+
+.port-line {
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+#hide-vid {
+    margin-top: 50px;
+    width: 150px;
+    height: 0px;
+    background-color: transparent;
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    font-family: 'Bungee Hairline', cursive;
+    font-size: 32px;
+    overflow: hidden;
+    opacity: 0;
+    transition: all 1s ease;
+}
+
+#about-contain, #about-contain2 {
+    z-index: 1;
+    width: 100%;
+    height: 777px;
+    padding: 0px;
+    margin: 0px;
+}
+
+#about-contain3 {
+    width: 100%;
+    margin-left: 0px;
+    padding: 0px;
+}
+
+#interests {
+    font-family: 'Bungee Hairline', cursive;
+    font-size: 32px;
+}
+
+.portfolio-item {
+    margin-bottom: 15px;
+}
+
+.links {
+    position: absolute;
+}
+
+#link-contain {
+    font-family: 'Bungee Hairline', cursive;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.l-links, .r-links {
+    position: absolute;
+    width: 60%;
+    transition: all .5s ease;
+}
+
+.l-links {
+    left: 0;
+    margin-left: 25px;
+    text-align: left;
+}
+
+.r-links {
+    right: 0;
+    text-align: right;
+}
+
+.my-links {
+    transition: all .5s ease;
+}
+
+#shuffle {
+    text-decoration: none;
+    background-color: transparent;
+    font-family: 'Bungee Hairline', cursive;
+    color: white;
+    border: none;
+    border: 1px solid white;
+    margin-top: 530px;
+    width: 100px;
+    height: 35px;
+    transition: all .5s ease;
+    box-shadow: 0px 0px 0px 0px rgba(255, 255, 255, .3) inset;
+}
+
+#shuffle:hover {
+    box-shadow: 0px 0px 20px 3px rgba(255, 255, 255, .3) inset;
+}
+
+@media only screen and (min-width: 1441px) {
+    #trigger {
+        width: 100%;
+        margin-top: 0px;
+        height: 777px;
+    }
+}
+
+@media only screen and (min-width: 1601px) {
+    #trigger {
+        width: 100%;
+        margin-top: 0px;
+        height: 777px;
+    }
+}
+
+@media only screen and (min-width: 1920px) {
+    #trigger {
+        width: 100%;
+        margin-top: 0px;
+        height: 777px;
+    }
+}
+
+@media only screen and (max-width: 1280px) {
+    #border {
+        width: 30%;
+    }
+    .sides {
+        width: 35%;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    #border {
+        width: 34%;
+    }
+    .sides {
+        width: 33%;
+    }
+}
+
+@media only screen and (max-width: 960px) {
+    #border {
+        width: 38%;
+    }
+    .sides {
+        width: 31%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #border {
+        width: 42%;
+    }
+    .sides {
+        width: 29%;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    #border {
+        width: 58%;
+    }
+    .sides {
+        width: 21%;
+    }
+}
